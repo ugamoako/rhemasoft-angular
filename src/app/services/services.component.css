@@ -1,0 +1,29 @@
+.card{
+    padding: 25px 10%;
+    transition: all 0.5s ease;
+    min-height: 240px;
+}
+.service-panel{
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+}
+.container{
+    width: 100%;
+}
+.features{
+    padding-top: 2rem;
+    background: #8e020e;
+}
+.row{
+    margin-bottom: 0;
+}
+.heading-text{
+    margin-top: 1rem;
+    color: #ffc045 !important;
+}
+.text-justify{
+    text-align: justify;
+    line-height: 1.8rem;
+    font-weight: 200;
+}

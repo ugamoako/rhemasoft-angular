@@ -1,20 +1,121 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<header>
+    <nav class="white z-depth-3">
+        <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="/" class="valign-wrapper left">
+            <img class="logo" src="../../assets/image/logo.png">
+            <div class="brand-text black-text">Rhemasoft</div>    
+          </a>
+          
+          <ul class="links hide-on-med-and-down">
+            <li><a routerLink="/home" routerLinkActive="active" class="waves-effect waves-red">Home</a></li>
+            <li><a routerLink="/services" routerLinkActive="active" class="waves-effect waves-red">Services</a></li>
+            <li><a routerLink="/store" routerLinkActive="active"class="waves-effect waves-red">Store</a></li>
+            <li><a routerLink="/news" routerLinkActive="active" class="waves-effect waves-red">News</a></li>
+            <li><a routerLink="/partners" routerLinkActive="active" class="waves-effect waves-red">Partners</a></li>
+            <li><a routerLink="/support" routerLinkActive="active"class="waves-effect waves-red">Support</a></li>
+            
+          </ul>
+          <ul class="right">
+              <li><a href="/login" class="waves-effect waves-red"><i class="material-icons">perm_identity</i></a></li>
+            <li><a href="/login" class="waves-effect waves-red"><i class="material-icons">add_shopping_cart</i></a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      <ul class="sidenav" id="mobile-demo">
+        <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+            <li><a routerLink="/services" routerLinkActive="active">Services</a></li>
+            <li><a routerLink="/store" routerLinkActive="active">Store</a></li>
+            <li><a routerLink="/news" routerLinkActive="active">News</a></li>
+            <li><a routerLink="/partner" routerLinkActive="active">Partners</a></li>
+            <li><a routerLink="/support" routerLinkActive="active">Support</a></li>
+            <li><a href="#"><i class="material-icons">input</i></a></li>
+      </ul>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 s6">
+          <h5 class="white-text">Features</h5>
+          <p class="grey-text">List your school on our platform for student to access their terminal result for free</p>
+          <p class="grey-text">Use our management app to manage you school and hospital into profitability</p>
+        </div>
+        <div class="col l3 s6">
+          <h5 class="white-text">Company</h5>
+          <p class="grey-text">Check out our White Paper and learn more about Rhemasoft</p>
+          <p class="grey-text">We make I.T solutions available and affordable if it can't be free</p>
+          
+        </div>
+        <div class="col l3 s6">
+          <h5 class="white-text">Solutions</h5>
+          <!--<p class="grey-text text-lighten-4">Check out for our wide range of solutions for your business</p>-->
+          <ul class="">
+            <li><i class="tiny material-icons">insert_chart</i><a class="grey-text" href="/about"> Result Checker</a></li>
+            <li><i class="tiny material-icons">school</i><a class="grey-text" href="/team"> School mgt. app</a></li>
+            <li><i class="tiny material-icons">local_hospital</i><a class="grey-text" href="/news"> Hospital mgt. app</a></li>
+            <li><i class="tiny material-icons">drive_eta</i><a class="grey-text" href="/support"> Car bay</a></li>
+            <li><i class="tiny material-icons">local_atm</i><a class="grey-text" href="/support"> Crypto exchange</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s6">
+          <h5 class="white-text">Support Area</h5>
+          <ul>
+            <li><a class="grey-text" href="#!">Didn't find the answer? Don't worry our support team can help!</a></li>
+            <p></p>
+            <li><a class="btn grey-text text-lighten-3 hoverable" href="#!">Get support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l3 s6">
+          <a href="#!" class="valign-wrapper">
+            <img class="logo" style="margin-top:5px" src="../../assets/image/logo.png">
+            <div class="brand-text" style="color:#535762;">Rhemasoft</div>      
+          </a>
+          <span class="footer-credits center">
+            © Copyright Rhemasoft Ltd. 2018
+          </span>
+        </div>
+        <div class="col l6">
+          <div class="categories-container col l12">
+            <ul class="list-inline">
+              <li><a href="/about">About</a></li>
+              <li><a href="/team">Team</a></li>
+              <li><a href="/news">News</a></li>
+              <li><a href="/support">Support</a></li>
+            </ul>
+            <ul class="footer-tos list-inline">
+              <li><a class="grey-text" href="/data-protection">Data Protection Policy</a></li>
+              <li><a class="grey-text" href="/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col l3 social-icons">
+          <ul class="list-inline">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+            <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+      Rhemasoft © 2018 All rights reserved
+      <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+      </div>
+    </div>
+  </footer>
+
 

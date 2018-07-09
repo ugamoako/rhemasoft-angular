@@ -1,0 +1,64 @@
+.bg-medium{
+    background-color: #003c71;
+    padding-bottom: 20px;
+}
+.cards{
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    border: 1px solid #dadada;
+}
+.card{
+    background-color:transparent;
+    padding: 25px 10%;
+    transition: all 0.5s ease;
+    min-height: 240px;
+    box-shadow: none;
+    margin: 0;
+
+}
+.card:hover{
+    background-color: #ffffff;
+    color: #003c71;
+}
+.first{
+    border-right: 1px solid #dadada;
+}
+.row-col{
+    padding: 0;
+}
+.card h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.card p {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 200;
+}
+.bg-large{
+    background-image: url('../../assets/image/partner-background.jpg');
+    background-size: cover;
+    background-position: center;
+    /*height: 500px;*/
+}
+.container{
+    padding-top:10px;
+    padding-bottom: 20px; 
+    text-align: center;
+    color: #ffffff;
+}
+.partner-form{
+    position: relative;
+    z-index: 2;
+}
+.row{
+    margin-bottom: 0;
+}
+.partner-form{
+    background-color: rgb(0, 0, 0, 0.3);
+    padding-bottom: 5px;
+}
+i.medium {
+    font-size: 3rem;
+}

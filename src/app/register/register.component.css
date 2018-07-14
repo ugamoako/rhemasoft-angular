@@ -1,0 +1,13 @@
+.row{
+    position: relative;
+    z-index: 2;
+}
+input{
+    color: black;
+}
+a{
+    margin: 0.5rem;
+}
+.heading{
+    padding-top:2rem;
+}

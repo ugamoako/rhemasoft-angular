@@ -1,0 +1,36 @@
+<div class="container center">
+    <div class="row center">
+        <div class="col s12 m6 offset-m3">
+            <div class="card">
+              <div class="heading">
+                <h4 class="center">Registration</h4>
+              </div>
+              <h6>Please enter email and password to register</h6>
+              <div class="card-content">
+                <form class="login-form">
+                  <div class="row">
+                      <div class="col m12 input-field">
+                          <input [(ngModel)]="email" name="email" type="email">
+                          <label for="email">Email</label>
+                      </div>
+                      <div class="col m12 input-field">
+                        <input [(ngModel)]="password" name="password" type="password">
+                        <!--<mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>--> 
+                        <label for="password">Password</label>
+                      </div>
+                      <div class="col m12 input-field">
+                          <input [(ngModel)]="confirmPassword" name="confirmPassword" type="password">
+                          <!--<mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>--> 
+                          <label for="confirmPassword">Confirm Password</label>
+                      </div>
+                      <!--<mat-checkbox>Remember Password</mat-checkbox>-->
+                      <a class="col m12 waves-effect waves-light btn" (click)="register()"> Register</a>
+                      <a class="col m12 waves-effect waves-light btn" routerLink="/login">Go to login page</a>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>  
+        </div>
+    </div>    
+</div>

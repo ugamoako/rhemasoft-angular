@@ -23,14 +23,17 @@
     display:table;
     width: 100%;
 }
-
+.row .center{
+    position: relative;
+    z-index: 2;
+}
 
 .valign-wrapper{
     display: inline-flex;
 }
 .main {
     color:white;
-    background-color:#8e020e;
+    background-color:#003c71;/*#8e020e;*/
 }
 
 .notif{
@@ -75,7 +78,7 @@
     color: #ffffff; 
 }
 .section-lg{
-    background: #8e020e;
+    background: #003c71;/*#8e020e;*/
     color: white;
 }
 .heading-text {
@@ -116,4 +119,7 @@ p{
     padding-bottom: 50px;
     margin-top: -20px;
     
+}
+.card-title{
+    font-size: 14px;
 }

@@ -12,18 +12,39 @@
     width: 100%;
 }
 .features{
+    margin: 0 auto;
     padding-top: 2rem;
-    background: #8e020e;
+    background-image: url('../../assets/image/service-features.jpg');
+    background-size: cover;
+    background-position: cover;
 }
 .row{
     margin-bottom: 0;
 }
-.heading-text{
-    margin-top: 1rem;
-    color: #ffc045 !important;
+.cards{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
-.text-justify{
+.cards .card{
+    background-color: rgb(255,255, 255, 0.6);
+    border-radius: 10px;
+    color:#003c71;
+    transition: all 0.8s ease;
+}
+.cards .card:hover{
+    background-color: #003c71;
+    color: #ffffff;
+}
+/*.heading-text{
+    margin-top: 1rem;
+    color: #ffffff !important;
+}*/
+/*.text-justify{
     text-align: justify;
     line-height: 1.8rem;
     font-weight: 200;
-}
+    color: #ffffff;
+}*/

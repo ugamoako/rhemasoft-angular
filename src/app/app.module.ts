@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -10,10 +11,15 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { RouterModule, Routes } from '@angular/router';
 import { PartnersComponent } from './partners/partners.component';
 import { ServicesComponent } from './services/services.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 const appRoutes: Routes = [
+  
   { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent},
+  { path: 'register', component: RegisterComponent},
   { path: 'support', component: SupportComponent },
   { path: 'partners', component: PartnersComponent },
   { path: 'services', component: ServicesComponent},
@@ -34,10 +40,13 @@ const appRoutes: Routes = [
     SupportComponent,
     PageNotFoundComponent,
     PartnersComponent,
-    ServicesComponent
+    ServicesComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     BrowserAnimationsModule,
     RouterModule.forRoot(

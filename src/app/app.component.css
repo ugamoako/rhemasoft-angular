@@ -50,7 +50,7 @@ nav a {
 }
 .page-footer{
     color: #535762;
-    background:#212121; 
+    background:#003c71;
 }
 .footer-copyright{
     background:#000000b8;
@@ -60,6 +60,6 @@ a {
     text-decoration: none;
     transition: .33s all ease;
 }
-a:hover{
+/*a:hover{
     color: #8e020e;
-}
+}*/

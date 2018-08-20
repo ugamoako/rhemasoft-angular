@@ -9,29 +9,29 @@
           </a>
           
           <ul class="links hide-on-med-and-down">
-            <li><a routerLink="/home" routerLinkActive="active" class="waves-effect waves-red">Home</a></li>
-            <li><a routerLink="/services" routerLinkActive="active" class="waves-effect waves-red">Services</a></li>
-            <li><a routerLink="/store" routerLinkActive="active"class="waves-effect waves-red">Store</a></li>
-            <li><a routerLink="/news" routerLinkActive="active" class="waves-effect waves-red">News</a></li>
-            <li><a routerLink="/partners" routerLinkActive="active" class="waves-effect waves-red">Partners</a></li>
-            <li><a routerLink="/support" routerLinkActive="active"class="waves-effect waves-red">Support</a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/home" class="waves-effect">Home</a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/services" class="waves-effect">Services</a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/store" class="waves-effect">Store</a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/news" class="waves-effect">News</a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/partners" class="waves-effect">Partners</a></li>
+            <li [routerLinkActive]="['active']"><a routerLink="/support" class="waves-effect">Support</a></li>
             
           </ul>
           <ul class="right hide-on-med-and-down">
-            <li><a routerLink="/login" class="waves-effect waves-red"><i class="material-icons">perm_identity</i></a></li>
-            <li><a routerLink="/login" class="waves-effect waves-red"><i class="material-icons">add_shopping_cart</i></a></li>
+            <li><a routerLink="/login" class="waves-effect"><i class="material-icons">perm_identity</i></a></li>
+            <li><a routerLink="/login" class="waves-effect"><i class="material-icons">add_shopping_cart</i></a></li>
           </ul>
         </div>
       </nav>
       
       <ul class="sidenav" id="mobile-demo">
-        <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
-        <li><a routerLink="/services" routerLinkActive="active">Services</a></li>
-        <li><a routerLink="/store" routerLinkActive="active">Store</a></li>
-        <li><a routerLink="/news" routerLinkActive="active">News</a></li>
-        <li><a routerLink="/partners" routerLinkActive="active">Partners</a></li>
-        <li><a routerLink="/support" routerLinkActive="active">Support</a></li>
-        <li><a href="#"><i class="material-icons">input</i></a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/home">Home</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/services">Services</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/store">Store</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/news">News</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/partners">Partners</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/support">Support</a></li>
+        <li [routerLinkActive]="['active']"><a href="#"><i class="material-icons">input</i></a></li>
       </ul>
 </header>
 <main>

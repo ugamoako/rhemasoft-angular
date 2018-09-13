@@ -1,5 +1,5 @@
 .bg-medium{
-    background-color: #003c71;
+    background: #8e020e; /*#003c71;*/
     padding-bottom: 20px;
 }
 .cards{
@@ -18,8 +18,8 @@
 
 }
 .card:hover{
-    background-color: #ffffff;
-    color: #003c71;
+    background-color: #001a31;
+    color: #ffffff;
 }
 .first{
     border-right: 1px solid #dadada;
@@ -61,4 +61,7 @@
 }
 i.medium {
     font-size: 3rem;
+}
+.btn{
+    background-color: #001a31;
 }

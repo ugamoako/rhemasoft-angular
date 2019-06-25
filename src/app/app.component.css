@@ -45,6 +45,11 @@ nav a {
 }
 .grey-text{
     font-size: 13px; 
+    color: #f3f3f3 !important;
+}
+.tiny{
+    margin-right: 5px;
+
 }
 .footer-credits {
     font-size: 12px;
@@ -52,21 +57,21 @@ nav a {
     color: #cccccc;/*#535762*/
 }
 .page-footer{
-    color: #535762;
-    background: #8e020e; /*#003c71;*/
+    color: #c48107;
+    background: #40000c; /*#003c71;*/
 }
 .footer-copyright{
-    background:#000000b8;
+    background:rgb(0, 0, 0,0.5);
 }
 a{
     display: inline-block;
     text-decoration: none;
     transition: .33s all ease;
-    color: #001a31;
+    color: #c48107;/*#001a31;*/
 }
 a:hover{
     color: #ffffff;
 }
 .btn{
-    background-color: #001a31;
+    background-color:#c48107; /*#001a31;*/
 }

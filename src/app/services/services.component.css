@@ -38,6 +38,14 @@
     background-color: #003c71;
     color: #ffffff;
 }
+.heading-4{
+    font-size: 1.8rem !important;
+    }
+.layout-row{
+    display: flex;
+    align-items: stretch;
+    
+}    
 /*.heading-text{
     margin-top: 1rem;
     color: #ffffff !important;

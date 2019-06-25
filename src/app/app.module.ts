@@ -13,6 +13,8 @@ import { PartnersComponent } from './partners/partners.component';
 import { ServicesComponent } from './services/services.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { NewsComponent } from './news/news.component';
+import { StoreComponent } from './store/store.component';
 
 
 const appRoutes: Routes = [
@@ -23,6 +25,7 @@ const appRoutes: Routes = [
   { path: 'support', component: SupportComponent },
   { path: 'partners', component: PartnersComponent },
   { path: 'services', component: ServicesComponent},
+  { path: 'news', component: NewsComponent},
   
   { path: '',
     redirectTo: '/home',
@@ -42,7 +45,9 @@ const appRoutes: Routes = [
     PartnersComponent,
     ServicesComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    NewsComponent,
+    StoreComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,40 @@
+.headline-news{
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+h1:hover{
+    transition: 1s;
+    color:white;
+}
+.title{
+    position: relative;
+    text-align: center;
+    padding: 5px 0;
+    background-color: rgb(0, 0, 0,0.9);
+    z-index: 2;
+}
+
+.card .card-title{
+    z-index: 2;
+    
+}
+.heading{
+    background-color: rgb(0, 0, 0,0.9);
+}
+.sub{
+    padding: 7px !important;
+    background-color: rgb(0, 0, 0,0.7);
+}
+h2{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;  
+    
+}

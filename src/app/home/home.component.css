@@ -2,6 +2,9 @@
 .headingTxt{
     font-size: 46px;
 }
+.grey-text{
+    color: #ffffff !important;
+}
 .linha-horizontal li {
     float: none;
     padding: 15px;
@@ -33,7 +36,7 @@
 }
 .main {
     color:white;
-    background: #8e020e; /*#003c71;*/
+    background:#400005; /*#8e020e; #003c71;*/
 }
 
 .notif{
@@ -78,7 +81,7 @@
     color: #ffffff; 
 }
 .section-lg{
-    background: #8e020e; /*#003c71;*/
+    background: #400005; /*#8e020e; #003c71;*/
     color: white;
 }
 .heading-text {
@@ -93,6 +96,7 @@ h5, .heading-5 {
     font-weight: 300;
     line-height: 1.45;
 }
+
 p{
     font-weight: 300;
     color:black;
